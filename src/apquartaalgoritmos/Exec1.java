@@ -35,7 +35,7 @@ public class Exec1 {
             for (int j = 0; j < nNotas; j++) {
                 System.out.println("Nota:" + (j + 1) + ": ");
                 notas[i][j] = ler.nextFloat();
-                notas[i][(nNotas)] += notas[i][j]; // Soma das notas
+                notas[i][(nNotas)] += notas[i][j]; // Soma das notas -- Recebe
             }
             
             //Média
